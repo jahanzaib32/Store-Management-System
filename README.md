@@ -1,4 +1,4 @@
-#**Store Management System**
+# **Store Management System**
 ![Store Management System](screenshot.jpg)
 
 ---
