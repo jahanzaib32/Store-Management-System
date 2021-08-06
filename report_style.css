@@ -1,0 +1,245 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "open_sansregular",Arial,"Helvetica Neue",Helvetica,sans-serif;
+}
+
+.sideBar * {
+    animation: all .4s;
+}
+
+.blue_area_text_color{
+    color: rgb(181, 200, 216);
+}
+.verticallyCenter{
+    position: absolute;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+.clearFix:after{
+    content: '';
+    clear:both;
+    display: table;
+}
+.sideBar{
+    display: inline-block;
+    max-width: 200px;
+    height: 100vh;
+    background-color: #064685;
+    padding: 15px;
+    position: fixed;
+}
+.sideBar .logo .logoImage{
+    display: inline-block;
+    text-align: center;
+}
+.sideBar .logo .logoImage img{
+    width: 60%;
+    margin: 0px auto;
+}
+.mainList{
+    margin-top: 15px;
+    text-transform: uppercase;
+}
+.mainList .parentList ul li a {
+    display: block;
+    position: relative;
+}
+.mainList .subList ul li{
+    margin-bottom: 0px;
+}
+.subList{
+    text-transform: initial;
+}
+.mainList .subList ul li a {
+    text-decoration: none;
+    font-size: .8em;
+    padding: 10px 10px 10px 38px;
+}
+.parentList ul li{
+    list-style: none;
+    margin-bottom: 15px;
+    display: block;
+    position: relative;
+}
+.inline_list_elements{
+    display: inline-block;
+}
+.mainList .parentList ul li .icon{
+    width: 30px;
+    position: relative;
+}
+.mainList .parentList ul li .icon img{
+    width: 100%;
+}
+.mainList .parentList ul li .listText{
+    width: calc(100% - 30px);
+    margin: 0px 0px 0px 10px;
+}
+.mainBody .header{
+    font-family: 'Open Sans' !important;
+    background: white;
+    overflow: hidden;
+    padding: 15px;
+}
+.header h2 {
+    float: left;
+}
+
+.sectorTable tr td.selected {
+    background: #81b2d6;
+}
+.displayBlock{
+    display: block;
+}
+
+.header .userDetails{
+    float: right;
+}
+.mainBody .sector{
+    margin: 15px;
+}
+.mainBody{
+    position: relative;
+    float: right;
+    display: inline-block;
+    width: calc(100% - 200px);
+    background: #e7eff5;
+    padding: 0px 0px 30px 0px;
+    overflow: hidden;
+}
+.display_none{
+    display: none;
+}
+.userSelection{
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+
+}
+.userDetails{
+    padding: 10px;
+}
+.userInfo{
+    text-align: center;
+}
+.userInfo table tr td{
+    margin: 10px 0px;
+    padding: 10px;
+    border-bottom: 1px solid #81b2d6;
+}
+.userInfo table{
+    width: 100%;
+}
+.userDetails .icon{
+    text-align: center;
+}
+.userDetails .icon img{
+    width: 100px;
+    border-radius: 100px;
+    border: 1px solid #81b2d6;
+    overflow: hidden;
+}
+table{
+    border-collapse: collapse;
+}
+.mainBody{
+    min-height: 100vh;
+}
+.col-left{
+    width: 50%;
+    float: left;
+}
+.col-right{
+    width: 50%;
+    float: right;
+}
+.mainBody .reportsArea .sectorTable table{
+    width: 100%;
+}
+.sectorTable tr td{
+    background: #f6fbff;
+}
+.sector .sectorHeader h3{
+    font-family: 'Open Sans' !important;
+}
+.sector .sectorHeader{
+    margin: 0px 0px 15px;
+}
+.sumup_row td{
+    background: #064685 !important;
+}
+.sumup_row td, .sumup_row td a{
+    color: white;
+}
+.view_image{
+    text-decoration: none;
+}
+.view_image img{
+    height: 12px;
+}
+.impInfo .property{
+    display: inline-block;
+    padding: 0px 10px;
+}
+.infoWrapper{
+    float: left;
+}
+.infoButton{
+    float: right;
+    margin: 10px 0px;
+}
+.infoButton .infoLink {
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    border: 1px solid #81b2d6;
+    border-radius: 3px;
+    background: #e7eff5;
+}
+.impInfo {
+    display: block;
+    border-bottom: 1px solid #81b2d6;
+    padding: 10px;
+    overflow: hidden;
+}
+.col-wrapper{
+    overflow: hidden;
+}
+.impInfo .property{
+    border-right: 1px solid #81b2d6;
+    color: #064685;
+}
+.property-qty, .property-heading{
+    display: block;
+    text-align: center;
+}
+.property-qty {
+    font-weight: bold;
+    font-size: 40px;
+}
+.property:last-child{
+    border-right: 0px;
+}
+.sectorTable{
+    background: white;
+    text-align: left;
+    font-size: .8rem;
+    border: 1px solid #81b2d6;
+    border-radius: 2px;
+}
+.sectorTable td, .sectorTable th{
+    padding: 5px 10px;
+}
+.sectorTable tr:not(:last-child){
+    border-bottom: 1px solid #81b2d6;
+}
+.mainBody .footer{
+    width: calc(100vw - 200px);
+    position: absolute;
+    bottom: 0px;
+    padding: 5px 15px;
+    background: #81b2d6;
+}

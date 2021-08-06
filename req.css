@@ -1,0 +1,35 @@
+.item_table{
+    width: 100%;
+}
+.item_table, .item_table tr, .item_table td, .item_table th{
+    border: 1px solid;
+    border-collapse: collapse;
+}
+.item_table td, .item_table th{
+    padding: 5px 10px;
+    text-align: center;
+}
+textarea, input{
+    border: 0;
+    overflow: hidden;
+    resize: none;
+    width: 50px;
+    height: 13px;
+    text-align: center;
+}.reqHiddenForm{
+    display: none;
+}
+.title{
+    text-transform: uppercase;
+    text-align: center;
+}
+.threeCol{
+    width: 100%;
+}
+.underlined{
+    text-decoration: underline;
+}
+.threeCol td{
+    width: 33%;
+    text-align: center;
+}

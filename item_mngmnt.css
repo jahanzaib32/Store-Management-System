@@ -1,0 +1,77 @@
+.reportsArea{
+}
+.rightFloat{
+    float: right;
+}
+}
+.leftFloat{
+    float: left;
+}
+.sector{
+    margin: 0px !important;
+}
+.visible{
+    display: block;
+}
+.notVisible{
+    display: none;
+}
+.note.green{
+    color: white;
+    background: #477500;
+}
+.note.red{
+    color: white;
+    background: #ff0000;
+}
+.note{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 3px;
+    margin: 5px 5px 10px 5px;
+}
+.inlineSectors{
+    margin: 0px 5px;
+    display: inline-block;
+}
+.sectorInstructions{
+    margin: 0px 0px 10px 0px;
+    padding: 10px;
+    border: 1px solid;
+    border-radius: 2px;
+}
+
+.sectorInstructions ul li{
+    list-style: none;
+}
+.wrapper{
+    width: fit-content;
+}
+
+.sectorDescription{
+    margin: 10px 0px;
+}
+
+.submit_btn{
+    padding: 5px;
+    display: block;
+    width: 100%;
+    margin: 10px 0px 0px 0px;
+}
+
+.sectorForm{
+    border: 1px solid;
+    border-radius: 3px;
+    box-shadow: 0px 0px 5px;
+    padding: 10px;
+}
+
+.hr_vr_center{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%, -50%);
+}
+.mainBody{
+    position: relative;
+}

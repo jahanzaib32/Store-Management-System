@@ -1,0 +1,98 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+.windows{
+    width: 400px;
+    margin: 0px auto;
+    border: 1px solid;
+    border-radius: 3px;
+    z-index: 66666666;
+    background: white;
+    box-shadow: 0px 0px 6px grey;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.windows .windows-mainBody *{
+    transition: all .3s;
+}
+
+.windows .titleBar{
+    background: lightgrey;
+}
+.windows a{
+    text-decoration: none;
+    color: black;
+}
+.clearFix:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.titleBar{
+    border-bottom: 1px solid;
+    position: relative;
+}
+.titleBar .title{
+    float: left;
+    padding: 6px 10px;
+}
+.titleBar .buttons a{
+    float: right;
+    padding: 6px 10px;
+    border: 1px solid lightgrey;
+}
+.titleBar .buttons a:hover{
+    background: #fffaba;
+    border: 1px solid #c7c283;
+}
+.windows-mainBody{
+    padding: 10px;
+}
+.windows-mainBody .submitButton input{
+    padding: 6px 15px;
+    margin: 13px 0px 0px;
+    text-transform: uppercase;
+    display: block;
+    width: 100%;
+    text-align: center;
+    border: 1px solid;
+}
+.windows-mainBody .submitButton button:hover{
+    box-shadow: 0px 0px 3px grey;
+}
+.formArea .inputTextArea{
+    margin: 10px 0px;
+    height: 30px;
+    position: relative;
+}
+.inputTextArea .imageIcon{
+    height: 65%;
+}
+.title.verticallyCenter{
+    transform: translate(0px, -50%);
+}
+.verticallyCenter{
+    position: absolute;
+    top: 50%;
+    transform: translate(8px, -50%);
+}
+.inputTextArea img{
+    height: 100%;
+}
+.inputTextArea input{
+    width: 100%;
+    height: 100%;
+    padding: 0px 0px 0px 33px;
+    border-radius: 8px;
+}
